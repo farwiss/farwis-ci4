@@ -1,0 +1,812 @@
+CRITICAL - 2022-05-19 21:09:34 --> syntax error, unexpected token "echo"
+#0 C:\xampp\htdocs\202210019\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\202210019\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 C:\xampp\htdocs\202210019\app\Controllers\Login.php(5): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\202210019\system\Router\Router.php(518): include_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\202210019\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('login')
+#5 C:\xampp\htdocs\202210019\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('login')
+#6 C:\xampp\htdocs\202210019\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-19 21:09:36 --> syntax error, unexpected token "echo"
+#0 C:\xampp\htdocs\202210019\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\202210019\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 C:\xampp\htdocs\202210019\app\Controllers\Login.php(5): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\202210019\system\Router\Router.php(518): include_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\202210019\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('login')
+#5 C:\xampp\htdocs\202210019\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('login')
+#6 C:\xampp\htdocs\202210019\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-19 21:31:06 --> Attempt to read property "<!-- DEBUG-VIEW START 1 APPPATH\Views\Login\form.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="public/materials/bootstrap.css">
+</head>
+<body>
+<div>
+    <h1>FORM LOGIN</h1>
+    <form method = "post" action>
+
+    </form>
+</div>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\Login\form.php -->
+" on string
+#0 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#2 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#3 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-19 21:31:08 --> Attempt to read property "<!-- DEBUG-VIEW START 1 APPPATH\Views\Login\form.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="public/materials/bootstrap.css">
+</head>
+<body>
+<div>
+    <h1>FORM LOGIN</h1>
+    <form method = "post" action>
+
+    </form>
+</div>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\Login\form.php -->
+" on string
+#0 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#2 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#3 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-19 21:34:37 --> Attempt to read property "<!-- DEBUG-VIEW START 1 APPPATH\Views\Login\form.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="public/materials/bootstrap.css">
+</head>
+<body>
+<div>
+    <h1>FORM LOGIN</h1>
+
+</div>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\Login\form.php -->
+" on string
+#0 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#2 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#3 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-19 21:34:37 --> Attempt to read property "<!-- DEBUG-VIEW START 1 APPPATH\Views\Login\form.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="public/materials/bootstrap.css">
+</head>
+<body>
+<div>
+    <h1>FORM LOGIN</h1>
+
+</div>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\Login\form.php -->
+" on string
+#0 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#2 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#3 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-19 21:34:37 --> Attempt to read property "<!-- DEBUG-VIEW START 1 APPPATH\Views\Login\form.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="public/materials/bootstrap.css">
+</head>
+<body>
+<div>
+    <h1>FORM LOGIN</h1>
+
+</div>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\Login\form.php -->
+" on string
+#0 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#2 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#3 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-19 21:34:38 --> Attempt to read property "<!-- DEBUG-VIEW START 1 APPPATH\Views\Login\form.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="public/materials/bootstrap.css">
+</head>
+<body>
+<div>
+    <h1>FORM LOGIN</h1>
+
+</div>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\Login\form.php -->
+" on string
+#0 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#2 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#3 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-19 21:34:53 --> Attempt to read property "<!-- DEBUG-VIEW START 1 APPPATH\Views\Login\form.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <h1>FORM LOGIN</h1>
+
+</div>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\Login\form.php -->
+" on string
+#0 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#2 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#3 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-19 21:34:53 --> Attempt to read property "<!-- DEBUG-VIEW START 1 APPPATH\Views\Login\form.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <h1>FORM LOGIN</h1>
+
+</div>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\Login\form.php -->
+" on string
+#0 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#2 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#3 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-19 21:34:54 --> Attempt to read property "<!-- DEBUG-VIEW START 1 APPPATH\Views\Login\form.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <h1>FORM LOGIN</h1>
+
+</div>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\Login\form.php -->
+" on string
+#0 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#2 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#3 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-19 21:34:54 --> Attempt to read property "<!-- DEBUG-VIEW START 1 APPPATH\Views\Login\form.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <h1>FORM LOGIN</h1>
+
+</div>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\Login\form.php -->
+" on string
+#0 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#2 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#3 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-19 21:34:54 --> Attempt to read property "<!-- DEBUG-VIEW START 1 APPPATH\Views\Login\form.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <h1>FORM LOGIN</h1>
+
+</div>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\Login\form.php -->
+" on string
+#0 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#2 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#3 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-19 21:35:58 --> Attempt to read property "<!-- DEBUG-VIEW START 1 APPPATH\Views\Login\form.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <h1>FORM LOGIN</h1>
+
+</div>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\Login\form.php -->
+" on string
+#0 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#2 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#3 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-19 21:36:39 --> Attempt to read property "<!-- DEBUG-VIEW START 1 APPPATH\Views\Login\form.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <h1>FORM LOGIN</h1>
+
+</div>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\Login\form.php -->
+" on string
+#0 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#2 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#3 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-19 21:36:39 --> Attempt to read property "<!-- DEBUG-VIEW START 1 APPPATH\Views\Login\form.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <h1>FORM LOGIN</h1>
+
+</div>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\Login\form.php -->
+" on string
+#0 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#2 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#3 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-19 21:36:39 --> Attempt to read property "<!-- DEBUG-VIEW START 1 APPPATH\Views\Login\form.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <h1>FORM LOGIN</h1>
+
+</div>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\Login\form.php -->
+" on string
+#0 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#2 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#3 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-19 21:37:32 --> Attempt to read property "<!-- DEBUG-VIEW START 1 APPPATH\Views\Login\form.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <h1>FORM LOGIN</h1>
+
+</div>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\Login\form.php -->
+" on string
+#0 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#2 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#3 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-19 21:37:32 --> Attempt to read property "<!-- DEBUG-VIEW START 1 APPPATH\Views\Login\form.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <h1>FORM LOGIN</h1>
+
+</div>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\Login\form.php -->
+" on string
+#0 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#2 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#3 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-19 21:37:33 --> Attempt to read property "<!-- DEBUG-VIEW START 1 APPPATH\Views\Login\form.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <h1>FORM LOGIN</h1>
+
+</div>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\Login\form.php -->
+" on string
+#0 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#2 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#3 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-19 21:37:33 --> Attempt to read property "<!-- DEBUG-VIEW START 1 APPPATH\Views\Login\form.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <h1>FORM LOGIN</h1>
+
+</div>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\Login\form.php -->
+" on string
+#0 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#2 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#3 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-19 21:39:50 --> Attempt to read property "<!-- DEBUG-VIEW START 1 APPPATH\Views\Login\form.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <h1>FORM LOGIN</h1>
+
+</div>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\Login\form.php -->
+" on string
+#0 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#2 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#3 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-19 21:39:50 --> Attempt to read property "<!-- DEBUG-VIEW START 1 APPPATH\Views\Login\form.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <h1>FORM LOGIN</h1>
+
+</div>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\Login\form.php -->
+" on string
+#0 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#2 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#3 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-19 21:40:09 --> Attempt to read property "<!-- DEBUG-VIEW START 1 APPPATH\Views\Login\form.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <h1>FORM LOGIN</h1>
+
+</div>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\Login\form.php -->
+" on string
+#0 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#2 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#3 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-19 21:40:09 --> Attempt to read property "<!-- DEBUG-VIEW START 1 APPPATH\Views\Login\form.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <h1>FORM LOGIN</h1>
+
+</div>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\Login\form.php -->
+" on string
+#0 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#2 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#3 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-19 21:40:10 --> Attempt to read property "<!-- DEBUG-VIEW START 1 APPPATH\Views\Login\form.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <h1>FORM LOGIN</h1>
+
+</div>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\Login\form.php -->
+" on string
+#0 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#2 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#3 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-19 21:59:01 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\202210019\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\202210019\system\Common.php(1089): CodeIgniter\View\View->render('Layout/template...', Array, true)
+#2 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(56): view('Layout/template...', Array)
+#3 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-19 22:00:09 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\202210019\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\202210019\system\Common.php(1089): CodeIgniter\View\View->render('Layout/template...', Array, true)
+#2 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(56): view('Layout/template...', Array)
+#3 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-19 22:00:09 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\202210019\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\202210019\system\Common.php(1089): CodeIgniter\View\View->render('Layout/template...', Array, true)
+#2 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(56): view('Layout/template...', Array)
+#3 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-19 22:00:09 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\202210019\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\202210019\system\Common.php(1089): CodeIgniter\View\View->render('Layout/template...', Array, true)
+#2 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(56): view('Layout/template...', Array)
+#3 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-19 22:00:10 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\202210019\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\202210019\system\Common.php(1089): CodeIgniter\View\View->render('Layout/template...', Array, true)
+#2 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(56): view('Layout/template...', Array)
+#3 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-19 22:00:10 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\202210019\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\202210019\system\Common.php(1089): CodeIgniter\View\View->render('Layout/template...', Array, true)
+#2 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(56): view('Layout/template...', Array)
+#3 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-19 22:00:10 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\202210019\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\202210019\system\Common.php(1089): CodeIgniter\View\View->render('Layout/template...', Array, true)
+#2 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(56): view('Layout/template...', Array)
+#3 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-19 22:00:10 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\202210019\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\202210019\system\Common.php(1089): CodeIgniter\View\View->render('Layout/template...', Array, true)
+#2 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(56): view('Layout/template...', Array)
+#3 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-19 22:00:11 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\202210019\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\202210019\system\Common.php(1089): CodeIgniter\View\View->render('Layout/template...', Array, true)
+#2 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(56): view('Layout/template...', Array)
+#3 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-19 22:00:11 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\202210019\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\202210019\system\Common.php(1089): CodeIgniter\View\View->render('Layout/template...', Array, true)
+#2 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(56): view('Layout/template...', Array)
+#3 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-19 22:00:11 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\202210019\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\202210019\system\Common.php(1089): CodeIgniter\View\View->render('Layout/template...', Array, true)
+#2 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(56): view('Layout/template...', Array)
+#3 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-19 22:00:11 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\202210019\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\202210019\system\Common.php(1089): CodeIgniter\View\View->render('Layout/template...', Array, true)
+#2 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(56): view('Layout/template...', Array)
+#3 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-19 22:00:12 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\202210019\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\202210019\system\Common.php(1089): CodeIgniter\View\View->render('Layout/template...', Array, true)
+#2 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(56): view('Layout/template...', Array)
+#3 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-19 22:00:12 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\202210019\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\202210019\system\Common.php(1089): CodeIgniter\View\View->render('Layout/template...', Array, true)
+#2 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(56): view('Layout/template...', Array)
+#3 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-19 22:00:13 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\202210019\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\202210019\system\Common.php(1089): CodeIgniter\View\View->render('Layout/template...', Array, true)
+#2 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(56): view('Layout/template...', Array)
+#3 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-19 22:00:13 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\202210019\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\202210019\system\Common.php(1089): CodeIgniter\View\View->render('Layout/template...', Array, true)
+#2 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(56): view('Layout/template...', Array)
+#3 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-19 22:00:13 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\202210019\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\202210019\system\Common.php(1089): CodeIgniter\View\View->render('Layout/template...', Array, true)
+#2 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(56): view('Layout/template...', Array)
+#3 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-19 22:00:13 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\202210019\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\202210019\system\Common.php(1089): CodeIgniter\View\View->render('Layout/template...', Array, true)
+#2 C:\xampp\htdocs\202210019\app\Controllers\BaseController.php(56): view('Layout/template...', Array)
+#3 C:\xampp\htdocs\202210019\app\Controllers\Login.php(10): App\Controllers\BaseController->show_layout('<!-- DEBUG-VIEW...')
+#4 C:\xampp\htdocs\202210019\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\202210019\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\202210019\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\202210019\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
